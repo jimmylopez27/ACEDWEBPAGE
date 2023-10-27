@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+	<title> ACEDlearningcenter </title>
+	
+    <style>
+
+/* Use this link as guide for further contents https://dribbble.com/ */
+
+/* Start ofNav Buttons */
+
+        body {
+            background-color: black;
+            margin: 0px;
+        }
+
+        .divnav {
+            background-color:  rgb(60, 100, 92);
+            position: sticky;
+            top:0;
+        }
+		
+		.ulnav {
+			list-style-type: none;
+            margin: 0px;
+		}
+		
+		.ulnav li {
+			display: inline-block;
+			margin: 7px;
+		}
+
+		.ulnav li a {
+			text-decoration: none;
+			color: white
+		}
+		
+		.ulnav li a:hover {
+			background-color: white;
+			color: black;
+		}
+
+		.logo img {
+			width: 120px;
+			height: 50px;
+			border-radius: 10px;
+		}
+		
+		.dropdown-menu li a {
+			color: white;
+		}
+		
+		.dropdown-menu {
+			background-color: rgb(60, 100, 92);
+			border-color: white;
+		}
+		
+/* End ofNav Buttons */ 
+/* Start of firstbody Contents */
+
+        .divbody1 {
+            background-image: url(acedbg.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }        
+
+        #h1title {
+            color:rgb(60, 100, 92);
+            font-size: 100px;
+        }
+
+        #h1des {
+            background-color: rgb(60, 100, 92, 0.5);
+            color: white;
+            font-size: 22px;
+            padding:20px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            text-align: justify;
+        }
+
+        #signup1 {
+            font-size: 50px;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+        }
+
+        #signup1 button {
+            text-decoration: none;
+            color: white;
+            background-color:rgb(218, 165, 32);
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 20px;
+        }
+
+        #signup1 button:hover {
+            background-color:rgb(225, 191, 79);
+            text-decoration: solid;
+        }
+
+/* End of firstbody Contents */
+/* Start of Footer Contents */
+      
+        .footer {
+            background-color: rgb(30, 49, 45);
+            color:white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .logins a:hover{
+            text-decoration: underline;
+        }
+
+        .icons img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .icons a img {
+            width: 30px;
+            height: 30px;
+            margin-left: 20px;
+
+        }
+
+        .text-center a {
+            text-decoration: none;
+        }
+
+        .text-center a:hover img {
+            transform: scale(1.8);
+        }
+
+/* End of Footer Contents */
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="divnav">
+		<ul class="horizontal-list ulnav"> 
+			<li class="col-6 logo align-left"> <a href="#"> <img src="1.jpg"> </a> </li>
+			<li class="col-1"> <a href="#"> Home </a> </li>
+			<li class="col-1"> 
+				<div class="dropdown">
+                    <a class="dropdown-toggle" role="button" data-bs-toggle="dropdown">
+                        About Us
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                        <li><a class="dropdown-item" href="#">Tutors</a></li>
+                        <li><a class="dropdown-item" href="#">Sample Videos</a></li>
+                        <li><a class="dropdown-item" href="#">Services Offered</a></li>
+                        <li><a class="dropdown-item" href="#">Payment Options</a></li>						
+						<li><a class="dropdown-item" href="#">Contact Us</a></li>
+					</ul>
+                </div>
+			</li>
+			<li class="col-1"> <a href="#"> Sign Up </a> </li>
+			<li class="col-1"> <a href="#"> Log In </a> </li>
+			
+		</ul>
+
+	</div>
+
+    <div class="divbody1">
+        <div class="container"> <br> <br><br><br><br><br>
+            <div class="col-7 divcont"> 
+                <h1 id="h1title"> ACED <br> Learning Center </h1> <br>
+                
+                <p id="h1des"> "Welcome to ACED Learning Center - where knowledge is limitless! Unleash your academic potential with our engaging asynchronous tutorials. We're more than a learning center; we're your partners in conquering math, science, and tech! Join us on a thrilling journey to accelerate your skills, paving the way for success in school and life's challenges. Let ACED be your compass to academic excellence and a future of triumphs! <br> <br> Join us today, and let's ACE it together!  🏆</p>
+                
+                <div id="signup1" class="mt-5">
+                    <a href="#"> <button class="btn"> Sign Up </button> </a>
+                </div>
+
+            </div>
+        </div> <br> <br> <br>
+
+        <div class="footer">
+
+            <p class="text-center logins"> <a href="#"> Sign Up </a> or <a href="#"> Log In </a> to your account or click the <strong> About Us<sup>▾</sup> </strong> at the top to learn more. </p>
+            <p class="text-center icons"> Connect with us thru: 
+                <a href="#"> <img src="fbicon.png"> </a> 
+                <a href="#"> <img src="instaicon.png"> </a>
+                <a href="#"> <img src="yticon.png"> </a>
+                <a href="#"> <img src="twiticon.png"> </a>
+                <a href="#"> <img src="tikicon.png"> </a>
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>
